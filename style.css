@@ -1,0 +1,218 @@
+body{
+    background-color: #ffe1f544;
+  cursor: pointer;
+}
+
+#preloader{
+background: #ff95e1; url(images/preloader.gif)
+no-repeat center center;
+Background-size: 20%;
+height: 100%;
+width: 100%;
+position: fixed;
+z-index: 100;
+}
+
+#myname{
+    position: fixed;
+    bottom: 10px;  
+    right: 45%; 
+    font-size: 30px;
+    color: #ff2dc388;
+}
+.stars{
+    transition: all 0.3s ease;;
+}
+.stars:hover{
+    font-size: larger;
+}
+header{
+   position: sticky;
+ top: 0;
+}
+header ul{
+    background-color: #ffdaec;
+    color: #e715ab;
+    list-style-type: none;
+    width: 95%;
+    height: 30px;
+    border-radius:  12px  12px 0 0;
+    border: 2px solid #e715ab;
+}
+nav ul li{
+    display: inline;
+    font-size: 20px;
+
+}
+nav ul li a {
+   color: #e300a3;
+   text-decoration: none;
+   font-size: 30px;
+   padding-left: 4%;
+   padding-right: 4%;
+   position: sticky;
+   top: 0;
+}
+.main{
+    color: #e300a3;
+    font-size: 30px;
+}
+.minimain{
+    color: #191117;
+    list-style-type: circle;
+    font-size: 20px;
+}
+
+#theh2{
+    color: #e715ab;
+    background-color: #ffd0da44;
+    display: inline;
+}
+#theh22{
+    color: #e715ab;
+    font-size: 60px;
+    transition: all 0.3s ease;
+}
+#theh22:hover{
+    font-size: 70px;
+    text-shadow: 2px 2px 5px #ffdfff;
+}
+
+#homeh{
+    font-size: 50px;
+    color: #e715ab;
+}
+.firsttitle{
+    font-size: 40px;
+    color: #e715ab;
+    transition: all 0.3s ease;
+}
+.firsttitle:hover{
+    font-size: 50px;
+    text-shadow: 2px 2px 5px #ffdfff;
+}
+
+#aboutitaly{
+    background-color: #e8a0e244;
+    border-radius: 2px;
+    padding-left: 20px;
+    color: #c70095;
+    font-size: 20px;
+    
+}
+.hotelname{
+    font-size: 30px;
+    color: #e715ab;
+    display: inline;
+    background-color: #e8a0c944;
+    transition: all 0.3s ease;
+}
+.hotelname:hover{
+    font-size: 40px;
+    text-shadow: 2px 2px 5px #ffdfff;
+}
+
+.hotlestars{
+    font-size:large;
+    display: inline;
+    padding-left: 2px;
+    color: #e715ab;
+}
+.hotelinfo{
+    font-size:large;
+    display: inline;
+    color: #191117;
+    margin-right: 200px;   
+}
+.img1{
+    float: right ;  
+    margin-right: 20px;
+    margin-top: 10px;
+    border: 5px solid #e715ab;
+    padding: 10px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(235, 189, 216, 0.1);
+    max-width: 100%;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+#img1{
+    width: 300px; 
+    height: 200px;
+}
+#img1:hover{
+    width: 400px; 
+}
+#img2{
+    width: 500px; 
+}
+#img2:hover{
+    width: 600px;
+}
+#img3{
+    width: 200px; 
+}
+#img3:hover{
+    width: 250px; 
+}
+#img4{
+    width: 300px; 
+    height: 150px;
+}
+#img4:hover{
+    width: 350px; 
+}
+#img5{
+    height: 200px;
+    width: 150px;
+}
+#img5:hover{
+    width: 300px;
+}
+
+.infooz{
+    color: #e715ab;
+}
+u{
+ color: #e8a0e244;
+}
+#welcome{
+    font-size:50px;
+    color: #e715ab;
+}
+h4 {
+    color: #e715ab;
+    list-style-type: none;
+    display: inline;
+    transition: all 0.3s ease;
+}
+h4:hover{
+    font-size: 30px;
+    text-shadow: 2px 2px 5px #ffdfff;
+}
+.thelink {
+    background-color: #ffd3fb;
+    color: #e715ab;
+    list-style-type: none;
+    display: inline;
+}
+.det{
+    color: #e715ab;
+    list-style-type: none;
+    display: inline;
+    text-decoration: none;
+}
+
+table {
+  border-collapse: collapse; /* hay btshel l double border*/
+  width: 60%;
+  text-align: center;
+}
+
+th {
+    color: #831e4f;
+  background-color: #ffdaec;
+  border: 1px solid rgb(161, 13, 115);
+  padding: 8px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
